@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #000000;
+  --color-obsidian: rgba(22, 22, 30, 0.4);
+  --color-cyber: #64CEFB;
+  --color-indigo: #6366F1;
+
+  --font-syne: "Instrument Serif", serif;
+  --font-manrope: "Manrope", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white/80 font-manrope antialiased overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-syne text-white tracking-[-0.03em];
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 12px rgba(100, 206, 251, 0.4);
+  }
+  
+  .text-stroke-white-30 {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    color: transparent;
+  }
+
+  .liquid-glass {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .glass-header {
+    background: rgba(10, 10, 15, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .border-glass {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .shadow-deep {
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.6);
+  }
+
+  .card-hover {
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .card-hover:hover {
+    box-shadow: 0 0 32px rgba(100, 206, 251, 0.15), 0 24px 48px rgba(0, 0, 0, 0.8);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .fade-rise {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}

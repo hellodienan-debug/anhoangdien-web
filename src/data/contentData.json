@@ -1,0 +1,123 @@
+{
+  "s1": {
+    "title": "AN HOANG DIEN",
+    "subtitle": "Sale Executive",
+    "body": "Adaptable Sales Executive blending hands-on field sales experience with practical Trade Marketing execution. Experience in Key Account Management, digital campaign deployment, and regular market visits. Resilient, action-oriented, and ready to tackle on-the-ground challenges to achieve business goals.",
+    "highlights": [
+      "Adaptable Sales Executive blending hands-on field sales experience with practical Trade Marketing execution.",
+      "Experience in Key Account Management, digital campaign deployment, and regular market visits.",
+      "Resilient, action-oriented, and ready to tackle on-the-ground challenges to achieve business goals."
+    ],
+    "images": {
+      "portrait": "./assets/s1_portrait_hero_01.png",
+      "background": "./assets/s1_background_hero_02.jpg"
+    }
+  },
+  "s2": {
+    "title": "Contact",
+    "subtitle": "Thông tin liên lạc",
+    "body": "0703 5555 44\n@hellodienan@gmail.com\nTan Vinh Loc Ward, HCMC",
+    "phone": "0703 5555 44",
+    "email": "@hellodienan@gmail.com",
+    "location": "Tan Vinh Loc Ward, HCMC",
+    "images": {
+      "icon_phone": "./assets/s2_icon_phone_01.svg",
+      "icon_email": "./assets/s2_icon_email_02.svg",
+      "icon_location": "./assets/s2_icon_location_03.svg",
+      "map": "./assets/s2_map_visual_04.jpg"
+    }
+  },
+  "s3": {
+    "title": "Education",
+    "subtitle": "Bachelor's Degree",
+    "body": "University of Economics HCMC\nMajor: Commercial Business\n2015-2020 | GPA: Good (7.42/10)",
+    "highlights": [
+      "University of Economics HCMC",
+      "Major: Commercial Business",
+      "2015-2020 | GPA: Good (7.42/10)"
+    ],
+    "images": {
+      "logo": "./assets/s3_uni_logo_01.png",
+      "visual": "./assets/s3_education_visual_02.jpg"
+    }
+  },
+  "s4": {
+    "title": "Skills, Tools & Software, Language",
+    "subtitle": "Năng lực chuyên môn",
+    "body": "Skills: Key Account Management & Account Operation, Sales Data Analysis, Planning, Project Management, E-commerce Operations.\nTools & Software: Power Bl, Google Analytics, Microsoft Office Suite.\nLanguage: English Conversation (TOEIC: 550).",
+    "highlights": [
+      "Skills: Key Account Management & Account Operation, Sales Data Analysis, Planning, Project Management, E-commerce Operations",
+      "Tools & Software: Power Bl, Google Analytics, Microsoft Office Suite",
+      "Language: English Conversation (TOEIC: 550)"
+    ],
+    "images": {
+      "skills": "./assets/s4_bento_skills_01.jpg",
+      "tools": "./assets/s4_bento_tools_02.png",
+      "language": "./assets/s4_bento_lang_03.svg"
+    }
+  },
+  "s5": {
+    "title": "Work Experience",
+    "subtitle": "05/2025 Present | Song Nhac Trading and Service Co., Ltd | Trade Marketing & Sales Executive",
+    "body": "Account & Display Management: Managed retail partnerships, optimized Display Share, and executed sales activities to hit monthly targets.\nReporting & Data Analysis: Prepared sales reports and assisted the Key Account Manager with trade marketing budgets and business reviews.\nTrade Marketing & Digital Execution: Planned and executed promotional campaigns (e.g., major holiday sales), managed website SEO content, and developed social media marketing materials for audio equipment.",
+    "highlights": [
+      "Account & Display Management: Managed retail partnerships, optimized Display Share, and executed sales activities to hit monthly targets.",
+      "Reporting & Data Analysis: Prepared sales reports and assisted the Key Account Manager with trade marketing budgets and business reviews.",
+      "Trade Marketing & Digital Execution: Planned and executed promotional campaigns (e.g., major holiday sales), managed website SEO content, and developed social media marketing materials for audio equipment."
+    ],
+    "images": {
+      "visual": "./assets/s5_audio_equipment_01.jpg"
+    }
+  },
+  "s6": {
+    "title": "Work Experience",
+    "subtitle": "02/2024-04/2025 | Aegona Company Limited | Project Manager",
+    "body": "Digital Platform Management: Led team management and oversaw the end-to-end development of digital platforms (website, e-commerce store).\nSEO & Social Media Strategy: Formulated and executed SEO strategies and social media business plans.\nStrategic Partnerships & Planning: Drove strategic partnerships and worked directly with the director to propose future business strategies.",
+    "highlights": [
+      "Digital Platform Management: Led team management and oversaw the end-to-end development of digital platforms (website, e-commerce store).",
+      "SEO & Social Media Strategy: Formulated and executed SEO strategies and social media business plans.",
+      "Strategic Partnerships & Planning: Drove strategic partnerships and worked directly with the director to propose future business strategies."
+    ],
+    "images": {
+      "visual": "./assets/s6_digital_platform_01.jpg"
+    }
+  },
+  "s7": {
+    "title": "Work Experience",
+    "subtitle": "10/2019-04/2023 | Boteevn - Fashion Store Online | E-Commerce Seller",
+    "body": "E-commerce Launch & Scaling: Launched and scaled a fashion store on Shopee & Lazada from the ground up, achieving 8 billion VND in annual revenue.\nPerformance Analysis & Optimization: Continuously monitored and analyzed performance reports to identify and act on growth opportunities.",
+    "highlights": [
+      "E-commerce Launch & Scaling: Launched and scaled a fashion store on Shopee & Lazada from the ground up, achieving 8 billion VND in annual revenue.",
+      "Performance Analysis & Optimization: Continuously monitored and analyzed performance reports to identify and act on growth opportunities."
+    ],
+    "images": {
+      "visual": "./assets/s7_ecommerce_growth_01.jpg"
+    }
+  },
+  "s8": {
+    "title": "Work Experience",
+    "subtitle": "06/2018-10/2019 | Kim Hoa Production and Trading Co., Ltd | Sales Executive GT Channel",
+    "body": "Sales Target Achievement: Consistently exceeded assigned revenue targets by acquiring new customers and managing existing client relationships.\nField Sales & Market Visits: Routinely performed market visits to maintain relationships with Store Managers and execute promotional programs.",
+    "highlights": [
+      "Sales Target Achievement: Consistently exceeded assigned revenue targets by acquiring new customers and managing existing client relationships.",
+      "Field Sales & Market Visits: Routinely performed market visits to maintain relationships with Store Managers and execute promotional programs."
+    ],
+    "images": {
+      "visual": "./assets/s8_field_sales_01.jpg"
+    }
+  },
+  "s9": {
+    "title": "Other Experiences & References",
+    "subtitle": "Additional Information",
+    "body": "Sales Executive | Hava Garment Manufacturing Co., Ltd (06/2023 - 12/2024)\nKey Account Management | Juva Media (04/2023 - 12/2024)\nReferences: Available upon request.",
+    "highlights": [
+      "Other Experiences: Sales Executive | Hava Garment Manufacturing Co., Ltd (06/2023 - 12/2024)",
+      "Other Experiences: Key Account Management | Juva Media (04/2023 - 12/2024)",
+      "References: Available upon request."
+    ],
+    "images": {
+      "background": "./assets/s9_footer_bg_01.jpg",
+      "signature": "./assets/s9_signature_02.svg"
+    }
+  }
+}
