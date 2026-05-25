@@ -295,7 +295,7 @@ export function SlideTikTokChannel({ data }: { data?: { customScreenshotUrl?: st
                     <div className="w-20 h-20 rounded-full border-2 border-white/10 p-0.5 relative z-10 bg-black overflow-hidden flex items-center justify-center">
                       <div className="w-full h-full rounded-full bg-[#111] flex items-center justify-center overflow-hidden">
                         <img 
-                          src="https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/7db7447d3d1964205acabb61ae5a0134.jpeg?lk3s=a5d48078&nonce=2074&refresh_token=65a127f872c050aeffba3c6981cf0ec1&x-expires=1716796800&x-signature=m0R%2Fp3D" 
+                          src="https://i.ibb.co/R4G7rNc5/Pro-Sound-1500-x-1500-px.jpg" 
                           alt="DA ProSound Logo" 
                           className="w-full h-full object-cover"
                           onError={(e) => {
