@@ -51,7 +51,7 @@ export function Slide04Skills({ data }: { data: ContentData["s4"] }) {
         
         {/* Main Bento: Skills (Spans 2 columns) */}
         <Card className="bento-item md:col-span-2 md:row-span-2 overflow-hidden flex flex-col justify-end p-8 md:p-12 min-h-[400px]">
-          <ImageRenderer src={data.images.skills} className="absolute inset-0 z-0 opacity-50 mix-blend-overlay hover:scale-105 transition-transform duration-700" />
+          <ImageRenderer src={data.images.skills} className="absolute inset-0 z-0 opacity-70 mix-blend-overlay hover:scale-105 transition-transform duration-700" />
           <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/90 to-transparent z-10" />
           
           <div className="relative z-20">
