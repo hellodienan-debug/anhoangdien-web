@@ -109,7 +109,7 @@ Liên tục theo dõi tỷ lệ chuyển đổi (CR) và giá trị đơn hàng 
     category: "Data Analysis",
     date: "20" + "26-02-15",
     readTime: "8 min read",
-    coverImage: "./assets/s4_bento_skills_01.jpg",
+    coverImage: "https://i.ibb.co/m5XRzgxd/s4-bento-tools-02.png",
     content: `
 ## Xây dựng Data-Driven Mindset
 
