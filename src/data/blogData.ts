@@ -17,7 +17,7 @@ export const blogPosts: BlogPostData[] = [
     category: "Trade Marketing",
     date: "20" + "26-05-20",
     readTime: "5 min read",
-    coverImage: "./assets/s6_digital_platform_01.jpg",
+    coverImage: "https://i.ibb.co/wF0GqWGs/img-viewer.png",
     content: `
 ## Sự chuyển dịch của Trade Marketing
 
@@ -50,7 +50,7 @@ Sử dụng Power BI và Google Analytics để dự báo xu hướng mua sắm,
     category: "Sales Strategy",
     date: "20" + "26-04-12",
     readTime: "7 min read",
-    coverImage: "./assets/s8_field_sales_01.jpg",
+    coverImage: "https://i.ibb.co/9fTKBb7/s8-field-sales-01.jpg",
     content: `
 ## Xây dựng mối quan hệ với Key Account
 
@@ -76,7 +76,7 @@ Một KAM xuất sắc là người biết cân bằng giữa việc đạt Targ
     category: "E-Commerce",
     date: "20" + "26-03-05",
     readTime: "6 min read",
-    coverImage: "./assets/s2_map_visual_04.jpg",
+    coverImage: "https://i.ibb.co/jPQZ7Qrh/s5-audio-equipment-01.jpg",
     content: `
 ## Khởi đầu với E-Commerce
 
