@@ -9,8 +9,8 @@
       "Resilient, action-oriented, and ready to tackle on-the-ground challenges to achieve business goals."
     ],
     "images": {
-      "portrait": "./assets/s1_portrait_hero_01.png",
-      "background": "./assets/s1_background_hero_02.jpg"
+      "portrait": "https://i.ibb.co/tTWFhbt4/s1-portrait-hero-01.png",
+      "background": "https://i.ibb.co/dwxX6rNB/s1-background-hero-02.jpg"
     }
   },
   "s2": {
