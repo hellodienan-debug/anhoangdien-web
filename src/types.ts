@@ -69,4 +69,7 @@ export interface ContentData {
     highlights: string[];
     images: { background: string; signature: string };
   };
+  tiktok?: {
+    customScreenshotUrl?: string;
+  };
 }

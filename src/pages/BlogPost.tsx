@@ -1,13 +1,15 @@
 import { useParams, Link } from "react-router-dom";
-import { blogPosts } from "@/data/blogData";
+import { useStore } from "@/store/useStore";
 import { useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import { SEO } from "@/components/SEO";
 
 export function BlogPost() {
   const { id } = useParams<{ id: string }>();
-  const post = blogPosts.find((p) => p.id === id);
+  const posts = useStore((state) => state.posts);
+  const post = posts.find((p) => p.id === id);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -16,6 +18,7 @@ export function BlogPost() {
   if (!post) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center pt-32 pb-24 px-6 z-10 relative text-center">
+        <SEO title="Post Not Found" />
         <h2 className="text-4xl font-syne font-bold text-white mb-4">Post not found</h2>
         <Link to="/blog" className="text-cyber hover:text-white transition-colors underline">
           &larr; Back to Blog
@@ -26,6 +29,12 @@ export function BlogPost() {
 
   return (
     <article className="min-h-screen pt-32 pb-32 px-6 md:px-12 max-w-4xl mx-auto relative z-10 w-full font-manrope">
+      <SEO 
+        title={`${post.title} | An Hoang Dien Blog`} 
+        description={post.excerpt} 
+        image={post.coverImage || "https://i.ibb.co/60xhCrnc/s1-portrait-hero-01.png"}
+        url={`/post/${post.id}`}
+      />
       <Link to="/blog" className="inline-flex items-center gap-2 text-white/50 hover:text-white text-sm font-semibold uppercase tracking-wider mb-12 transition-colors">
         <span>&larr;</span> Back to Blog
       </Link>

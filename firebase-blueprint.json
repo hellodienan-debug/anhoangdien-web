@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "BlogPost": {
+      "title": "Blog Post",
+      "description": "A single blog post.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "excerpt": { "type": "string" },
+        "category": { "type": "string" },
+        "date": { "type": "string" },
+        "readTime": { "type": "string" },
+        "coverImage": { "type": "string" },
+        "content": { "type": "string" }
+      },
+      "required": ["title", "excerpt", "category", "date", "readTime", "content"]
+    },
+    "Subscriber": {
+      "title": "Newsletter Subscriber",
+      "description": "A user subscribed to the newsletter.",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["email", "createdAt"]
+    }
+  },
+  "firestore": {
+    "posts/{postId}": {
+      "schema": "BlogPost",
+      "description": "Collection of all blog posts."
+    },
+    "subscribers/{subscriberId}": {
+      "schema": "Subscriber",
+      "description": "Collection of all newsletter subscribers."
+    },
+    "settings/{settingsId}": {
+      "schema": "PortfolioSettings",
+      "description": "Site content settings, typically document ID 'singleton'."
+    }
+  }
+}

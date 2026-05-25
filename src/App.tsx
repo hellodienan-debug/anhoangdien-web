@@ -1,40 +1,37 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Header } from "./components/Header";
-import { Footer } from "./components/Footer";
-import { Home } from "./pages/Home";
-import { BlogList } from "./pages/BlogList";
-import { BlogPost } from "./pages/BlogPost";
+import { HelmetProvider } from "react-helmet-async";
+import { MainLayout } from "./layouts/MainLayout";
+import { AdminLayout } from "./layouts/AdminLayout";
+import { useEffect } from "react";
+import { initializeFirebaseSync, useStore } from "@/store/useStore";
+import { Loader2 } from "lucide-react";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <div className="bg-black min-h-screen selection:bg-cyber/30 selection:text-white font-manrope overflow-x-hidden relative flex flex-col items-center w-full">
-        {/* Video Background */}
-        <div className="fixed inset-0 w-full h-full z-0 pointer-events-none">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover opacity-60"
-            src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_105406_16f4600d-7a92-4292-b96e-b19156c7830a.mp4"
-          />
-          <div className="absolute inset-0 bg-black/40" />
-        </div>
+  const isLoading = useStore((state) => state.isLoading);
 
-        <Header />
-        
-        <div className="flex-grow w-full flex flex-col items-center">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/blog" element={<BlogList />} />
-            <Route path="/blog/:id" element={<BlogPost />} />
-          </Routes>
-        </div>
+  useEffect(() => {
+    const cleanup = initializeFirebaseSync();
+    return () => cleanup();
+  }, []);
 
-        <Footer />
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-[#0A0A0A] flex flex-col items-center justify-center text-white">
+        <Loader2 className="w-8 h-8 animate-spin text-cyber mb-4" />
+        <p className="text-white/50 text-sm font-manrope">Loading system...</p>
       </div>
-    </BrowserRouter>
+    );
+  }
+
+  return (
+    <HelmetProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/admin/*" element={<AdminLayout />} />
+          <Route path="/*" element={<MainLayout />} />
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }
 

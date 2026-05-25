@@ -1,20 +1,25 @@
-import data from "@/data/contentData.json";
-import type { ContentData } from "@/types";
+import { useStore } from "@/store/useStore";
+import { SEO } from "@/components/SEO";
 import { Slide01Hero } from "@/components/slides/Slide01Hero";
 import { Slide02Contact } from "@/components/slides/Slide02Contact";
 import { Slide03Education } from "@/components/slides/Slide03Education";
 import { Slide04Skills } from "@/components/slides/Slide04Skills";
 import { SlideExperienceDashboard } from "@/components/slides/SlideExperienceDashboard";
 import { Slide07ExperienceAdaptive } from "@/components/slides/Slide07ExperienceAdaptive";
+import { SlideTikTokChannel } from "@/components/slides/SlideTikTokChannel";
 import { SlideLatestPosts } from "@/components/slides/SlideLatestPosts";
 import { Slide09Footer } from "@/components/slides/Slide09Footer";
 
 export function Home() {
-  const content = data as unknown as ContentData;
+  const content = useStore(state => state.portfolioContent);
+
   return (
     <main className="relative z-10 w-full overflow-hidden">
+      <SEO />
       <Slide01Hero data={content.s1} />
       <Slide02Contact data={content.s2} />
+      {/* TikTok Highlight - Personal Project */}
+      <SlideTikTokChannel data={content.tiktok} />
       <Slide03Education data={content.s3} />
       <Slide04Skills data={content.s4} />
       {/* Slide 05: Experience 1 - Image Right */}

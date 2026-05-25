@@ -2,14 +2,15 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { blogPosts } from "@/data/blogData";
+import { useStore } from "@/store/useStore";
 import { Card } from "@/components/ui/Card";
 
 export function SlideLatestPosts() {
   const containerRef = useRef<HTMLDivElement>(null);
   
   // Get latest 4 posts
-  const latestPosts = blogPosts.slice(0, 4);
+  const posts = useStore((state) => state.posts);
+  const latestPosts = posts.slice(0, 4);
 
   useGSAP(() => {
     gsap.fromTo(".post-anim",
