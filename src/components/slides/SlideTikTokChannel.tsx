@@ -107,42 +107,42 @@ export function SlideTikTokChannel({ data }: { data?: { customScreenshotUrl?: st
       title: "Lắp Dàn Karaoke cho khách",
       views: "112.1K",
       isPinned: true,
-      image: "/assets/s5_audio_equipment_01.jpg",
+      image: "https://i.ibb.co/TBkCGmWZ/c168ba5f7d76fc28a567.jpg",
       link: "https://www.tiktok.com/@daprosound"
     },
     {
       title: "Đóng hàng cho khách",
       views: "36K",
       isPinned: true,
-      image: "/assets/s8_field_sales_01.jpg",
+      image: "https://i.ibb.co/TDSffZd1/f32c6daaad832cdd7592.jpg",
       link: "https://www.tiktok.com/@daprosound"
     },
     {
       title: "Xưởng sản xuất Loa",
       views: "10K",
       isPinned: true,
-      image: "/assets/s4_bento_skills_01.jpg",
+      image: "https://i.ibb.co/6R31N48W/4dce7c91bbb83ae663a9.jpg",
       link: "https://www.tiktok.com/@daprosound"
     },
     {
       title: "Chỉnh hiệu ứng Reverb",
       views: "32.6K",
       isPinned: false,
-      image: "/assets/s6_digital_platform_01.jpg",
+      image: "https://i.ibb.co/3mXfYfhc/3467a8966fbfeee1b7ae.jpg",
       link: "https://www.tiktok.com/@daprosound"
     },
     {
       title: "Quy trình Ráp Loa Full",
       views: "1.183",
       isPinned: false,
-      image: "/assets/s3_education_visual_02.jpg",
+      image: "https://i.ibb.co/qM6cWzDf/bdea432b8302025c5b13.jpg",
       link: "https://www.tiktok.com/@daprosound"
     },
     {
       title: "Lắp dàn karaoke gia đình",
       views: "1.360",
       isPinned: false,
-      image: "/assets/s2_map_visual_04.jpg",
+      image: "https://i.ibb.co/vCjwm2XX/c6ac1b37db1e5a40030f.jpg",
       link: "https://www.tiktok.com/@daprosound"
     }
   ];
@@ -295,7 +295,7 @@ export function SlideTikTokChannel({ data }: { data?: { customScreenshotUrl?: st
                     <div className="w-20 h-20 rounded-full border-2 border-white/10 p-0.5 relative z-10 bg-black overflow-hidden flex items-center justify-center">
                       <div className="w-full h-full rounded-full bg-[#111] flex items-center justify-center overflow-hidden relative">
                         <img 
-                          src="https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/7db7447d3d1964205acabb61ae5a0134.jpeg?lk3s=a5d48078&nonce=2074&refresh_token=65a127f872c050aeffba3c6981cf0ec1&x-expires=1716796800&x-signature=m0R%2Fp3D" 
+                          src="https://i.ibb.co/R4G7rNc5/Pro-Sound-1500-x-1500-px.jpg" 
                           alt="DA ProSound Logo" 
                           className="w-full h-full object-cover absolute inset-0 z-10"
                           onError={(e) => {
