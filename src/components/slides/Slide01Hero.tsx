@@ -70,11 +70,11 @@ export function Slide01Hero({ data }: { data: ContentData["s1"] }) {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 xl:px-12 flex flex-col md:flex-row items-center gap-12 md:gap-24">
         {/* Left Content */}
         <div className="flex-1 text-left w-full">
-          <h2 className="hero-subtitle text-indigo text-sm md:text-base font-bold tracking-[0.4em] uppercase mb-4">
+          <h2 className="hero-subtitle text-[#64cefb] text-sm md:text-base font-bold tracking-[0.4em] uppercase mb-4">
             {data.subtitle}
           </h2>
           <div className="overflow-hidden mb-6">
-            <h1 className="hero-title text-6xl md:text-[80px] lg:text-[120px] font-black tracking-tighter uppercase leading-[0.85] text-white">
+            <h1 className="hero-title text-6xl md:text-[80px] lg:text-[120px] font-black tracking-normal uppercase leading-[0.85] text-white">
               AN HOANG<br />
               <ShinyText text="DIEN" />
             </h1>

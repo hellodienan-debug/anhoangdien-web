@@ -1,30 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Montserrat:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
 @theme {
   --color-midnight: #000000;
   --color-obsidian: rgba(22, 22, 30, 0.4);
-  --color-cyber: #64CEFB;
-  --color-indigo: #6366F1;
+  --color-cyber: #F4F4F5; /* Premium Zinc 100 */
+  --color-indigo: #A1A1AA; /* Elegant Zinc 400 */
 
-  --font-syne: "Instrument Serif", serif;
-  --font-manrope: "Manrope", sans-serif;
+  --font-syne: "Cal Sans", "Instrument Serif", serif;
+  --font-manrope: "Montserrat", "Manrope", sans-serif;
 }
 
 @layer base {
   body {
-    @apply bg-black text-white/80 font-manrope antialiased overflow-x-hidden;
+    @apply bg-black text-zinc-300 font-manrope antialiased overflow-x-hidden;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-syne text-white tracking-[-0.03em];
+    @apply font-syne text-white tracking-normal;
   }
 }
 
 @layer utilities {
   .text-glow {
-    text-shadow: 0 0 12px rgba(100, 206, 251, 0.4);
+    text-shadow: 0 0 12px rgba(244, 244, 245, 0.3);
   }
   
   .text-stroke-white-30 {
@@ -33,7 +33,7 @@
   }
 
   .liquid-glass {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(15, 15, 20, 0.4);
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -58,7 +58,7 @@
   }
 
   .card-hover:hover {
-    box-shadow: 0 0 32px rgba(100, 206, 251, 0.15), 0 24px 48px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 32px rgba(244, 244, 245, 0.05), 0 24px 48px rgba(0, 0, 0, 0.8);
     border-color: rgba(255, 255, 255, 0.2);
   }
   
@@ -67,3 +67,4 @@
     transform: translateY(30px);
   }
 }
+

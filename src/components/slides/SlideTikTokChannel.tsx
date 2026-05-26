@@ -163,8 +163,8 @@ export function SlideTikTokChannel({ data }: { data?: { customScreenshotUrl?: st
             <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#00f2fe] drop-shadow-md">Personal Project</span>
           </div>
 
-          <h2 className="tiktok-anim text-4xl sm:text-5xl lg:text-6xl font-syne font-black tracking-tighter uppercase text-white mb-6 leading-tight">
-            DA PRO<span className="text-cyber">SOUND</span>
+          <h2 className="tiktok-anim text-4xl sm:text-5xl lg:text-6xl font-syne font-black tracking-normal uppercase text-[#64cefb] mb-6 leading-tight">
+            <span className="text-[#780116]">DA</span> <span className="text-white">PROSOUND</span>
           </h2>
           
           <p className="tiktok-anim text-white/70 font-light text-base leading-relaxed mb-10 max-w-md">

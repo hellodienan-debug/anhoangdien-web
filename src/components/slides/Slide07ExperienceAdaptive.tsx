@@ -41,7 +41,7 @@ export function Slide07ExperienceAdaptive({ data }: { data: ContentData["s7"] })
           <h3 className="text-cyber font-semibold tracking-widest text-sm uppercase mb-4">
             {data.title}
           </h3>
-          <h2 className="text-4xl md:text-5xl font-syne font-bold mb-4 text-white">
+          <h2 className="text-4xl md:text-5xl font-syne font-bold mb-4 text-[#64cefb]">
             {company}
           </h2>
           

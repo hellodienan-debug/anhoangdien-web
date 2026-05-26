@@ -42,7 +42,7 @@ export function Slide04Skills({ data }: { data: ContentData["s4"] }) {
         <h3 className="bento-item text-indigo font-bold tracking-[0.4em] text-[10px] md:text-xs uppercase mb-3">
           {data.subtitle}
         </h3>
-        <h2 className="bento-item text-3xl md:text-5xl font-syne font-black tracking-tighter uppercase text-white">
+        <h2 className="bento-item text-3xl md:text-5xl font-syne font-black tracking-normal uppercase text-[#64cefb]">
           {data.title}
         </h2>
       </div>
@@ -85,7 +85,7 @@ export function Slide04Skills({ data }: { data: ContentData["s4"] }) {
               <p className="text-sm text-[#A0A0AB]">English Conversation</p>
             </div>
             <div>
-              <div className="text-4xl text-cyber font-bold font-syne tracking-tighter mb-1 mt-4">
+              <div className="text-4xl text-cyber font-bold font-syne tracking-normal mb-1 mt-4">
                 TOEIC 550
               </div>
             </div>

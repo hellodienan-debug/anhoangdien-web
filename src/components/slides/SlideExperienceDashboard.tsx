@@ -38,7 +38,7 @@ export function SlideExperienceDashboard({ data, slideId, imageLeft = false }: S
       <h3 className="exp-anim text-indigo font-semibold tracking-widest text-sm uppercase mb-3">
         {data.title}
       </h3>
-      <h2 className="exp-anim text-3xl md:text-5xl font-syne font-bold mb-4 text-white">
+      <h2 className="exp-anim text-3xl md:text-5xl font-syne font-bold mb-4 text-[#64cefb]">
         {company || "Company"}
       </h2>
       <div className="exp-anim flex flex-wrap items-center gap-3 mb-8">

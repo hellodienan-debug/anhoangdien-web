@@ -47,7 +47,7 @@ export function Slide03Education({ data }: { data: ContentData["s3"] }) {
           <h3 className="edu-anim text-cyber font-semibold tracking-widest text-sm uppercase mb-3">
             {data.subtitle}
           </h3>
-          <h2 className="edu-anim text-4xl md:text-5xl lg:text-6xl font-syne font-bold mb-10 text-white">
+          <h2 className="edu-anim text-4xl md:text-5xl lg:text-6xl font-syne font-bold mb-10 text-[#64cefb]">
             {data.title}
           </h2>
 

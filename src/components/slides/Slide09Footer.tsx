@@ -38,7 +38,7 @@ export function Slide09Footer({ data }: { data: ContentData["s9"] }) {
         <h3 className="footer-anim text-cyber font-semibold tracking-widest text-sm uppercase mb-4">
           {data.subtitle}
         </h3>
-        <h2 className="footer-anim text-4xl md:text-5xl lg:text-6xl font-syne font-bold mb-12 text-white bg-clip-text text-transparent bg-gradient-to-r from-white to-white/60">
+        <h2 className="footer-anim text-4xl md:text-5xl lg:text-6xl font-syne font-bold mb-12 text-[#64cefb]">
           {data.title}
         </h2>
 

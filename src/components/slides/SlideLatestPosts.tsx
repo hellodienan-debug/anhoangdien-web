@@ -36,7 +36,7 @@ export function SlideLatestPosts() {
           <h3 className="post-anim text-cyber font-bold tracking-[0.4em] text-[10px] md:text-xs uppercase mb-3">
             Latest Insights
           </h3>
-          <h2 className="post-anim text-3xl md:text-5xl font-syne font-black tracking-tighter uppercase text-white">
+          <h2 className="post-anim text-3xl md:text-5xl font-syne font-black tracking-normal uppercase text-[#64cefb]">
             Recent Articles
           </h2>
         </div>
