@@ -24,6 +24,14 @@ export function AdminGuard({ children }: { children: React.ReactNode }) {
     );
   }
 
+  const handleLogin = async () => {
+    try {
+      await loginWithGoogle();
+    } catch (err: any) {
+      alert(`Login failed: ${err.message}. If you are on a custom domain, ensure it is added to Firebase Auth Authorized Domains.`);
+    }
+  };
+
   if (!user) {
     return (
       <div className="min-h-screen bg-[#0A0A0A] flex flex-col items-center justify-center text-white px-6">
@@ -31,7 +39,7 @@ export function AdminGuard({ children }: { children: React.ReactNode }) {
           <h1 className="text-2xl font-syne font-bold mb-2">Admin Login</h1>
           <p className="text-white/50 text-sm mb-8">Please sign in to access the CMS</p>
           <button 
-            onClick={() => loginWithGoogle()}
+            onClick={handleLogin}
             className="w-full bg-cyber text-black font-bold uppercase tracking-wider py-3 rounded-xl hover:bg-white transition-colors"
           >
             Sign in with Google
