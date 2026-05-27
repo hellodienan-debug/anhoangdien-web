@@ -86,8 +86,8 @@ export function Slide01Hero({ data }: { data: ContentData["s1"] }) {
         </div>
 
         {/* Right Portrait */}
-        <div className="hero-image relative w-full md:w-[45%] aspect-[4/5] flex-shrink-0">
-          <div className="absolute inset-0 bg-cyber blur-[120px] opacity-10 rounded-full" />
+        <div className="hero-image relative w-[80%] sm:w-[70%] md:w-[32%] aspect-[4/5] flex-shrink-0 mx-auto md:mx-0">
+          <div className="absolute inset-0 bg-cyber blur-[120px] opacity-10 rounded-[32px]" />
           <ImageRenderer 
             src={data.images.portrait} 
             className="w-full h-full border border-white/10 rounded-[32px] shadow-deep z-10 relative bg-transparent" 

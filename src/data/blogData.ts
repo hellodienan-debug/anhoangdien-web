@@ -50,7 +50,7 @@ Sử dụng Power BI và Google Analytics để dự báo xu hướng mua sắm,
     category: "Sales Strategy",
     date: "20" + "26-04-12",
     readTime: "7 min read",
-    coverImage: "./assets/s8_field_sales_01.jpg",
+    coverImage: "https://i.ibb.co/9fTKBb7/s8-field-sales-01.jpg",
     content: `
 ## Xây dựng mối quan hệ với Key Account
 
@@ -76,7 +76,7 @@ Một KAM xuất sắc là người biết cân bằng giữa việc đạt Targ
     category: "E-Commerce",
     date: "20" + "26-03-05",
     readTime: "6 min read",
-    coverImage: "./assets/s2_map_visual_04.jpg",
+    coverImage: "https://i.ibb.co/dwxX6rNB/s1-background-hero-02.jpg",
     content: `
 ## Khởi đầu với E-Commerce
 
@@ -109,7 +109,7 @@ Liên tục theo dõi tỷ lệ chuyển đổi (CR) và giá trị đơn hàng 
     category: "Data Analysis",
     date: "20" + "26-02-15",
     readTime: "8 min read",
-    coverImage: "./assets/s4_bento_skills_01.jpg",
+    coverImage: "https://i.ibb.co/m5XRzgxd/s4-bento-tools-02.png",
     content: `
 ## Xây dựng Data-Driven Mindset
 
@@ -123,3 +123,4 @@ A/B Testing các chương trình khuyến mãi giúp bạn nhận ra đâu là o
 `
   }
 ];
+
